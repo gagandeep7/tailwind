@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf ./dist ./.cache",
     "dev": "parcel ./src/index.html --open --no-autoinstall",
-    "prod": "parcel build ./src/index.html --no-source-maps --public-url ./"
+    "prod": " npm run clean &&parcel build ./src/index.html --no-source-maps --public-url ./"
   },
   "keywords": [],
   "author": "",
